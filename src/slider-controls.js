@@ -6,11 +6,11 @@
     var scrollableContainer = document.getElementsByClassName('slider-content')[0];
 
     leftArrow.onclick = function onClickLeftArrow() {
-        scroll(scrollableContainer, -600);
+        scroll(scrollableContainer, -570);
     };
 
     rightArrow.onclick = function onClickRightArrow() {
-        scroll(scrollableContainer, 600);
+        scroll(scrollableContainer, 570);
     };
 
     function scroll(target, amount) {

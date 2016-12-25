@@ -4,7 +4,7 @@ body {
 }
 
 #showcase-container {
-    width: 790px;
+    width: 880px;
     height: 349px;
     background-image: linear-gradient(to bottom, #FFFFFF 95%, #E5F1FB);
     border-radius: 8px;
@@ -17,7 +17,7 @@ body {
 }
 
 #may-like {
-    width: 600px;
+    width: 690px;
     float: right;
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 #may-like p {
-    border-top-right-radius: 8px;    
+    border-top-right-radius: 8px;
 }
 
 .title {
@@ -91,10 +91,11 @@ body {
 
 .slider-content {
     overflow-x: hidden;
-    border-left: 1px solid #EEEEEE;
+    margin: 0 auto;
+    width: 570px;
 }
 
-.scrollable-container {
+.items-container {
     width: 2000px;
 }
 
@@ -103,20 +104,25 @@ body {
 }
 
 .slider-controls {
-    width: 600px;
+    width: 690px;
     position: absolute;
+    margin-top: 70px;
 }
 
 .slider-controls .arrow {
-    height: 50px;
-    width: 50px;
-    background-color: blue;
+    cursor: pointer;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
 }
 
 .slider-controls #left-arrow {
     float: left;
+    border-right: 18px solid #034482;
+    margin-left: 20px;
 }
 
 .slider-controls #right-arrow {
     float: right;
+    border-left: 18px solid #034482;
+    margin-right: 20px;
 }

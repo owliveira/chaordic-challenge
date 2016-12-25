@@ -14,7 +14,7 @@ function X(response){
     }
 
     function insertInterestProducts(products, quantity) {
-        var interestProductContainer = document.getElementById('may-like').getElementsByClassName('scrollable-container')[0];
+        var interestProductContainer = document.getElementById('may-like').getElementsByClassName('items-container')[0];
         var interestProductElement;
 
         for (var i = 0; i < quantity; i++) {
