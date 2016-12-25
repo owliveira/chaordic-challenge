@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#showcase-container {
+    width: 790px;
+    height: 349px;
+}
+
+#you-visited {
+    width: 190px;
+    float: left;
+}
+
+#may-like {
+    width: 600px;
+    float: right;
+}
+
+.title {
+    margin: 0;
+    font-weight: bold;
+    color: #00669F;
+    background-color: #E5F1FB;
+    line-height: 40px;
+}
+
+.product-container {
+    margin: 10px;
+    padding: 5px;
+    width: 160px;
+}
+
+.product-container:hover {
+    cursor: pointer;
+    background-color: #D7EAF9;
+}
+
+.product-container:hover .product-image-container {
+    border: 2px solid #BDD0E0;
+}
+
+.product-container .product-image-container {
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    height: 130px;
+}
+
+.product-container .product-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.product-container .product-details-container {
+    margin-top: 15px;
+    padding: 0 5px;
+}
+
+.product-container div.product-name, .product-container div.old-price, .product-container div.price, .product-container div.payment-conditions {
+    font-size: 11px;
+}
+
+.product-container div.old-price {
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.red-ink {
+    color: #CC0000;
+}
+
+.product-container div.price strong {
+    font-size: 16px;
+}
+
+.slider-container {
+    overflow-x: scroll;
+}
+
+.slider-control-left {
+    float: left;
+    width: 50px;
+}
+
+.slider-control-right {
+    float: right;
+    width: 50px;
+}
+
+.scrollable-container {
+    width: 2000px;
+}
+
+.slider-container .product-container {
+    float: left;
+}
