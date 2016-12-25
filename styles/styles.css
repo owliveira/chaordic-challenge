@@ -57,12 +57,15 @@ body {
     padding: 0 5px;
 }
 
+.product-container div.product-name {
+    margin-bottom: 10px;
+}
+
 .product-container div.product-name, .product-container div.old-price, .product-container div.price, .product-container div.payment-conditions {
     font-size: 11px;
 }
 
 .product-container div.old-price {
-    margin-top: 10px;
     margin-bottom: 2px;
 }
 
@@ -74,24 +77,14 @@ body {
     font-size: 16px;
 }
 
-.slider-container {
+.slider-content {
     overflow-x: scroll;
-}
-
-.slider-control-left {
-    float: left;
-    width: 50px;
-}
-
-.slider-control-right {
-    float: right;
-    width: 50px;
 }
 
 .scrollable-container {
     width: 2000px;
 }
 
-.slider-container .product-container {
+.slider-content .product-container {
     float: left;
 }
