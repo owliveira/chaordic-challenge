@@ -1,3 +1,5 @@
+'use strict';
+
 function X(response){
     var data = response.data;
 

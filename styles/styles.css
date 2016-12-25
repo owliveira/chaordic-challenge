@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -100,4 +100,23 @@ body {
 
 .slider-content .product-container {
     float: left;
+}
+
+.slider-controls {
+    width: 600px;
+    position: absolute;
+}
+
+.slider-controls .arrow {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
+.slider-controls #left-arrow {
+    float: left;
+}
+
+.slider-controls #right-arrow {
+    float: right;
 }
