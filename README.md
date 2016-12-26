@@ -12,3 +12,6 @@ Os seguintes quesitos serão avaliados neste desafio:
 3. Detalhismo no acabamento da exportação
 4. Interação com a vitrine (links, mouse hover e paginação)
 5. Carregamento dos dados no servidor remoto
+
+##Layout da vitrine
+![alt tag](https://raw.githubusercontent.com/renanoliver/chaordic-challenge/master/challenge.png)
