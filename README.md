@@ -1,4 +1,4 @@
-# charodic-challenge
+# chaordic-challenge
 
 Deploy: http://renan-chaordic-challenge.surge.sh
 
