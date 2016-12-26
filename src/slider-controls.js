@@ -1,9 +1,13 @@
-(function() {
+function setupSlider(length) {
     'use strict';
 
     var leftArrow = document.getElementById('left-arrow');
     var rightArrow = document.getElementById('right-arrow');
     var scrollableContainer = document.getElementsByClassName('slider-content')[0];
+    var itemsContainer = document.getElementsByClassName('items-container')[0];
+    var itemsContainerSize = 190 * length + 'px';
+
+    itemsContainer.style.setProperty('width', itemsContainerSize);
 
     leftArrow.onclick = function onClickLeftArrow() {
         scroll(scrollableContainer, -570);
@@ -32,4 +36,4 @@
             }
         }, cycleDuration);
     }
-})();
+};

@@ -44,6 +44,11 @@ body {
     width: 160px;
 }
 
+.product-container a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .product-container:hover {
     cursor: pointer;
     background-image: linear-gradient(to bottom, #D7EAF9, #FFFFFF 110%);
@@ -89,14 +94,14 @@ body {
     font-size: 16px;
 }
 
+.slider {
+    border-left: 1px solid #EEEEEE;
+}
+
 .slider-content {
     overflow-x: hidden;
     margin: 0 auto;
     width: 570px;
-}
-
-.items-container {
-    width: 2000px;
 }
 
 .slider-content .product-container {
@@ -105,11 +110,10 @@ body {
 
 .slider-controls {
     width: 690px;
-    position: absolute;
-    margin-top: 70px;
 }
 
 .slider-controls .arrow {
+    margin-top: 70px;
     cursor: pointer;
     border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;

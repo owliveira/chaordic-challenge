@@ -5,6 +5,7 @@ function X(response){
 
     insertReferenceProduct(data.reference.item);
     insertInterestProducts(data.recommendation, data.widget.size);
+    setupSlider(data.widget.size);
 
     function insertReferenceProduct(referenceProduct) {
         var youVisitedContainer = document.getElementById('you-visited');
@@ -26,15 +27,17 @@ function X(response){
     function generateProductElement(product) {
         var productContainerElement = document.createElement('div');
         var productContainerInnerHTML = [
-            '<div class="product-image-container">',
-                '<img class="product-image" src="' + product.imageName + '">',
-            '</div>',
-            '<div class="product-details-container">',
-                '<div class="product-name">' + truncateProductName(product.name) + '</div>',
-                getOldPriceHTML(product.oldPrice),
-                '<div class="price red-ink">Por: <strong>' + product.price + '</strong></div>',
-                getPaymentContition(product.productInfo),
-            '</div>'
+            '<a href="' + product.detailUrl + '" target="_blank">',
+                '<div class="product-image-container">',
+                    '<img class="product-image" src="' + product.imageName + '">',
+                '</div>',
+                '<div class="product-details-container">',
+                    '<div class="product-name">' + truncateProductName(product.name) + '</div>',
+                    getOldPriceHTML(product.oldPrice),
+                    '<div class="price red-ink">Por: <strong>' + product.price + '</strong></div>',
+                    getPaymentContition(product.productInfo),
+                '</div>',
+            '</a>'
         ].join('');
 
         productContainerElement.classList.add('product-container');
